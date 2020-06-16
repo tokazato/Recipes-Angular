@@ -10,7 +10,7 @@ export const START_EDIT = '[ShoppingList] START_EDIT';
 export const STOP_EDIT = '[ShoppingList] STOP_EDIT';
 
 export class AddIngredient implements Action {
-    readonly type = ADD_INGREDIENT;
+    readonly type = ADD_INGREDIENT; 
     constructor(public payload: Ingredient ) {}
 }
 
